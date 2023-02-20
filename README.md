@@ -68,3 +68,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+ask about this error:
+Compiled with problems:X
+
+ERROR in ./src/EmptySlot.js 6:0-46
+
+Module not found: Error: You attempted to import ../assets/molehill.png which falls outside of the project src/ directory. Relative imports outside of src/ are not supported.
+You can either move it inside src/, or add a symlink to it from project's node_modules/.
+
+
+ERROR in ./src/Mole.js 7:0-36
+
+Module not found: Error: Can't resolve '.assets/mole.png' in 'C:\Users\corey\react_rr\react_a_mole\src'
